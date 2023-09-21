@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #70c5ce; */
+}
+
+.game-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  /* border: 2px solid #000; */
+  overflow: hidden;
+}
+
+.bird {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  /* background-color: #f5d300; */
+  border-radius: 50%;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pipe {
+  position: absolute;
+  width: 50px;
+  height: 200px;
+  background-color: #339933;
+  bottom: 0;
+}
+
+.pipe {
+  position: absolute;
+  width: 70px;
+  /* background-color: #339933; */
+  bottom: 0;
+}
+
+.pipe-upper {
+  height: 150px; /* Adjust the height of the upper pipe as needed */
+  /* transform: rotate(180deg); */
+   /* Rotate the upper pipe 180 degrees */
+  top: 0;
+}
+
+.pipe-lower {
+  height: 130px; /* Adjust the height of the lower pipe as needed */
+  top: auto;
+}
