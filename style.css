@@ -10,17 +10,17 @@ body {
 
 .game-container {
   position: relative;
-  width: 400px;
-  height: 400px;
-  background-color: #fff;
+  width: 800px;
+  height: 500px;
+  /* background-color: #fff; */
   /* border: 2px solid #000; */
   overflow: hidden;
 }
 
 .bird {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: 50px;
   /* background-color: #f5d300; */
   border-radius: 50%;
   left: 50px;
@@ -30,22 +30,22 @@ body {
 
 .pipe {
   position: absolute;
-  width: 50px;
-  height: 200px;
-  background-color: #339933;
+  width: 500px;
+  height: 100px;
+  /* backgound-color: #339933; */
   bottom: 0;
 }
 
 .pipe {
   position: absolute;
-  width: 70px;
+  /* width: 900px; */
   /* background-color: #339933; */
   bottom: 0;
 }
 
 .pipe-upper {
   height: 150px; /* Adjust the height of the upper pipe as needed */
-  /* transform: rotate(180deg); */
+  transform: rotate(180deg);
    /* Rotate the upper pipe 180 degrees */
   top: 0;
 }

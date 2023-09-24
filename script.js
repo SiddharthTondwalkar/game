@@ -95,7 +95,7 @@ function gameLoop() {
     if (pipeLeft <= -50) {
       pipe.style.left = "100%"; // Reset the pipe position
     } else {
-      pipe.style.left = pipeLeft - 2 + "px";
+      pipe.style.left = pipeLeft - 5 + "px";
     }
 
     // Check for collision with the bird and game over logic
@@ -108,7 +108,7 @@ function gameLoop() {
       birdRect.right > pipeRect.left &&
       birdRect.left < pipeRect.right
     ) {
-      // alert("Game Over");
+      alert("Game Over");
       bird.style.top = "50%";
       bird.style.left = "50px";
     }
